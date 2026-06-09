@@ -7,8 +7,8 @@ import java.nio.charset.StandardCharsets;
 public record DatabaseSettings(String jdbcUrl, String username, String password) {
 
     public static DatabaseSettings resolve() {
-        String databaseUrl = getenv("DATABASE_URL");
-        if (databaseUrl != null && !databaseUrl.isBlank()) {
+        String databaseUrl = firstNonBlank(getenv("DATABASE_URL"), getenv("SPRING_DATASOURCE_URL"));
+        if (isPostgresConnectionUrl(databaseUrl)) {
             return fromDatabaseUrl(databaseUrl);
         }
 
@@ -49,16 +49,27 @@ public record DatabaseSettings(String jdbcUrl, String username, String password)
             }
         }
 
+        return new DatabaseSettings(normalizeJdbcUrl(buildJdbcUrl(uri)), username, password);
+    }
+
+    private static String buildJdbcUrl(URI uri) {
         StringBuilder jdbcUrl = new StringBuilder("jdbc:postgresql://").append(uri.getHost());
         if (uri.getPort() > 0) {
             jdbcUrl.append(':').append(uri.getPort());
         }
         jdbcUrl.append(uri.getPath());
-
-        return new DatabaseSettings(normalizeJdbcUrl(jdbcUrl.toString()), username, password);
+        String query = uri.getQuery();
+        if (query != null && !query.isBlank()) {
+            jdbcUrl.append('?').append(query);
+        }
+        return jdbcUrl.toString();
     }
 
     static String normalizeJdbcUrl(String jdbcUrl) {
+        if (isPostgresConnectionUrl(jdbcUrl)) {
+            jdbcUrl = buildJdbcUrl(URI.create(jdbcUrl.replace("postgres://", "postgresql://")));
+        }
+
         boolean internalRenderHost = jdbcUrl.contains("dpg-")
                 && jdbcUrl.contains("-a")
                 && !jdbcUrl.contains(".render.com");
@@ -114,5 +125,13 @@ public record DatabaseSettings(String jdbcUrl, String username, String password)
 
     private static String decode(String value) {
         return URLDecoder.decode(value, StandardCharsets.UTF_8);
+    }
+
+    private static boolean isPostgresConnectionUrl(String url) {
+        if (url == null || url.isBlank()) {
+            return false;
+        }
+        String trimmed = url.trim();
+        return trimmed.startsWith("postgresql://") || trimmed.startsWith("postgres://");
     }
 }

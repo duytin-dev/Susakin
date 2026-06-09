@@ -19,13 +19,16 @@ public class RenderEnvironmentPostProcessor implements EnvironmentPostProcessor 
 
     @Override
     public void postProcessEnvironment(ConfigurableEnvironment environment, SpringApplication application) {
-        String databaseUrl = environment.getProperty("DATABASE_URL");
-        if (databaseUrl == null || databaseUrl.isBlank()) {
+        String springUrl = environment.getProperty("SPRING_DATASOURCE_URL", "");
+        if (!springUrl.isBlank() && !isLocalUrl(springUrl) && springUrl.startsWith("jdbc:")) {
             return;
         }
 
-        String springUrl = environment.getProperty("SPRING_DATASOURCE_URL", "");
-        if (!springUrl.isBlank() && !isLocalUrl(springUrl)) {
+        String databaseUrl = firstNonBlank(
+                environment.getProperty("DATABASE_URL"),
+                isPostgresConnectionUrl(springUrl) ? springUrl : null
+        );
+        if (databaseUrl == null || databaseUrl.isBlank()) {
             return;
         }
 
@@ -77,5 +80,22 @@ public class RenderEnvironmentPostProcessor implements EnvironmentPostProcessor 
 
     private String decode(String value) {
         return URLDecoder.decode(value, StandardCharsets.UTF_8);
+    }
+
+    private static boolean isPostgresConnectionUrl(String url) {
+        if (url == null || url.isBlank()) {
+            return false;
+        }
+        String trimmed = url.trim();
+        return trimmed.startsWith("postgresql://") || trimmed.startsWith("postgres://");
+    }
+
+    private static String firstNonBlank(String... values) {
+        for (String value : values) {
+            if (value != null && !value.isBlank()) {
+                return value;
+            }
+        }
+        return null;
     }
 }
