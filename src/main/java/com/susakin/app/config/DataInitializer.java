@@ -25,13 +25,17 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Slf4j
 @Component
 @RequiredArgsConstructor
 @ConditionalOnProperty(name = "app.seed.enabled", havingValue = "true", matchIfMissing = true)
 public class DataInitializer implements CommandLineRunner {
+
+    private static final int VOCABULARIES_PER_TOPIC = 200;
 
     private final TopicRepository topicRepository;
     private final VocabularyRepository vocabularyRepository;
@@ -40,25 +44,73 @@ public class DataInitializer implements CommandLineRunner {
     private final LessonProgressRepository lessonProgressRepository;
     private final UserVocabularyRepository userVocabularyRepository;
     private final PasswordEncoder passwordEncoder;
+    private final VocabularySeedLoader vocabularySeedLoader;
 
     @Override
     @Transactional
     public void run(String... args) {
-        if (topicRepository.count() > 0) {
-            log.info("Database đã có dữ liệu, bỏ qua seed.");
+        if (topicRepository.count() == 0) {
+            log.info("Đang seed dữ liệu mẫu...");
+            List<Topic> topics = seedTopics();
+            seedVocabularies(topics);
+            List<Lesson> lessons = seedLessons(topics);
+            List<User> users = seedUsers();
+            seedLessonProgress(users.get(0), lessons);
+            seedUserVocabularies(users.get(0), topics);
+            log.info("Seed dữ liệu mẫu hoàn tất.");
             return;
         }
 
-        log.info("Đang seed dữ liệu mẫu...");
+        ensureVocabulariesPerTopic();
+    }
 
-        List<Topic> topics = seedTopics();
-        seedVocabularies(topics);
-        List<Lesson> lessons = seedLessons(topics);
-        List<User> users = seedUsers();
-        seedLessonProgress(users.get(0), lessons);
-        seedUserVocabularies(users.get(0), topics);
+    private void ensureVocabulariesPerTopic() {
+        List<Topic> topics = topicRepository.findAll();
+        boolean updated = false;
 
-        log.info("Seed dữ liệu mẫu hoàn tất.");
+        for (Topic topic : topics) {
+            long currentCount = vocabularyRepository.countByTopicId(topic.getId());
+            if (currentCount >= VOCABULARIES_PER_TOPIC) {
+                continue;
+            }
+
+            log.info("Chủ đề '{}' có {} từ, bổ sung lên {} từ...",
+                    topic.getName(), currentCount, VOCABULARIES_PER_TOPIC);
+
+            List<Vocabulary> existing = vocabularyRepository.findByTopicIdOrderByOrderIndexAsc(topic.getId());
+            Set<String> existingWords = new HashSet<>();
+            int maxOrderIndex = 0;
+            for (Vocabulary vocabulary : existing) {
+                existingWords.add(vocabulary.getWord().toLowerCase());
+                maxOrderIndex = Math.max(maxOrderIndex, vocabulary.getOrderIndex());
+            }
+
+            List<VocabularySeedLoader.WordEntry> seedWords = vocabularySeedLoader.loadForTopic(topic.getName());
+            List<Vocabulary> toAdd = new ArrayList<>();
+            int orderIndex = maxOrderIndex;
+
+            for (VocabularySeedLoader.WordEntry entry : seedWords) {
+                if (existingWords.size() + toAdd.size() >= VOCABULARIES_PER_TOPIC) {
+                    break;
+                }
+                if (existingWords.contains(entry.word().toLowerCase())) {
+                    continue;
+                }
+                orderIndex++;
+                toAdd.add(createVocabulary(topic, entry.word(), entry.meaningVi(), orderIndex));
+                existingWords.add(entry.word().toLowerCase());
+            }
+
+            if (!toAdd.isEmpty()) {
+                vocabularyRepository.saveAll(toAdd);
+                updated = true;
+                log.info("Đã thêm {} từ cho chủ đề '{}'", toAdd.size(), topic.getName());
+            }
+        }
+
+        if (!updated) {
+            log.info("Mỗi chủ đề đã có đủ {} từ vựng.", VOCABULARIES_PER_TOPIC);
+        }
     }
 
     private List<Topic> seedTopics() {
@@ -80,42 +132,22 @@ public class DataInitializer implements CommandLineRunner {
     }
 
     private void seedVocabularies(List<Topic> topics) {
-        Topic animals = topics.get(0);
-        Topic colors = topics.get(1);
-        Topic family = topics.get(2);
-        Topic food = topics.get(3);
-
         List<Vocabulary> vocabularies = new ArrayList<>();
-        vocabularies.addAll(List.of(
-                createVocabulary(animals, "cat", "con mèo", 1),
-                createVocabulary(animals, "dog", "con chó", 2),
-                createVocabulary(animals, "bird", "con chim", 3),
-                createVocabulary(animals, "fish", "con cá", 4),
-                createVocabulary(animals, "rabbit", "con thỏ", 5)
-        ));
-        vocabularies.addAll(List.of(
-                createVocabulary(colors, "red", "màu đỏ", 1),
-                createVocabulary(colors, "blue", "màu xanh dương", 2),
-                createVocabulary(colors, "green", "màu xanh lá", 3),
-                createVocabulary(colors, "yellow", "màu vàng", 4),
-                createVocabulary(colors, "pink", "màu hồng", 5)
-        ));
-        vocabularies.addAll(List.of(
-                createVocabulary(family, "mother", "mẹ", 1),
-                createVocabulary(family, "father", "bố", 2),
-                createVocabulary(family, "sister", "chị/em gái", 3),
-                createVocabulary(family, "brother", "anh/em trai", 4),
-                createVocabulary(family, "grandmother", "bà", 5)
-        ));
-        vocabularies.addAll(List.of(
-                createVocabulary(food, "apple", "quả táo", 1),
-                createVocabulary(food, "banana", "quả chuối", 2),
-                createVocabulary(food, "rice", "cơm", 3),
-                createVocabulary(food, "milk", "sữa", 4),
-                createVocabulary(food, "bread", "bánh mì", 5)
-        ));
+
+        for (Topic topic : topics) {
+            List<VocabularySeedLoader.WordEntry> words = vocabularySeedLoader.loadForTopic(topic.getName());
+            int orderIndex = 1;
+            for (VocabularySeedLoader.WordEntry entry : words) {
+                if (orderIndex > VOCABULARIES_PER_TOPIC) {
+                    break;
+                }
+                vocabularies.add(createVocabulary(topic, entry.word(), entry.meaningVi(), orderIndex++));
+            }
+        }
 
         vocabularyRepository.saveAll(vocabularies);
+        log.info("Đã seed {} từ vựng ({} từ/chủ đề).",
+                vocabularies.size(), VOCABULARIES_PER_TOPIC);
     }
 
     private Vocabulary createVocabulary(Topic topic, String word, String meaningVi, int orderIndex) {
@@ -123,8 +155,8 @@ public class DataInitializer implements CommandLineRunner {
         vocabulary.setTopic(topic);
         vocabulary.setWord(word);
         vocabulary.setMeaningVi(meaningVi);
-        vocabulary.setImageUrl("https://cdn.example.com/vocab/" + word + ".png");
-        vocabulary.setAudioUrl("https://cdn.example.com/audio/" + word + ".mp3");
+        vocabulary.setImageUrl("https://cdn.example.com/vocab/" + word.replace(" ", "-") + ".png");
+        vocabulary.setAudioUrl("https://cdn.example.com/audio/" + word.replace(" ", "-") + ".mp3");
         vocabulary.setOrderIndex(orderIndex);
         return vocabulary;
     }

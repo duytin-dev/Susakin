@@ -1,0 +1,3210 @@
+{
+  "Động vật": [
+    [
+      "cat",
+      "con mèo"
+    ],
+    [
+      "dog",
+      "con chó"
+    ],
+    [
+      "bird",
+      "con chim"
+    ],
+    [
+      "fish",
+      "con cá"
+    ],
+    [
+      "rabbit",
+      "con thỏ"
+    ],
+    [
+      "elephant",
+      "con voi"
+    ],
+    [
+      "tiger",
+      "con hổ"
+    ],
+    [
+      "lion",
+      "con sư tử"
+    ],
+    [
+      "bear",
+      "con gấu"
+    ],
+    [
+      "wolf",
+      "con sói"
+    ],
+    [
+      "fox",
+      "con cáo"
+    ],
+    [
+      "deer",
+      "con hươu"
+    ],
+    [
+      "monkey",
+      "con khỉ"
+    ],
+    [
+      "gorilla",
+      "con tinh tinh lớn"
+    ],
+    [
+      "chimpanzee",
+      "con tinh tinh"
+    ],
+    [
+      "horse",
+      "con ngựa"
+    ],
+    [
+      "cow",
+      "con bò"
+    ],
+    [
+      "pig",
+      "con lợn"
+    ],
+    [
+      "sheep",
+      "con cừu"
+    ],
+    [
+      "goat",
+      "con dê"
+    ],
+    [
+      "chicken",
+      "con gà"
+    ],
+    [
+      "duck",
+      "con vịt"
+    ],
+    [
+      "goose",
+      "con ngỗng"
+    ],
+    [
+      "turkey",
+      "con gà tây"
+    ],
+    [
+      "rooster",
+      "gà trống"
+    ],
+    [
+      "hen",
+      "gà mái"
+    ],
+    [
+      "chick",
+      "gà con"
+    ],
+    [
+      "eagle",
+      "chim đại bàng"
+    ],
+    [
+      "hawk",
+      "diều hâu"
+    ],
+    [
+      "owl",
+      "cú"
+    ],
+    [
+      "parrot",
+      "vẹt"
+    ],
+    [
+      "pigeon",
+      "bồ câu"
+    ],
+    [
+      "crow",
+      "quạ"
+    ],
+    [
+      "sparrow",
+      "chim sẻ"
+    ],
+    [
+      "swan",
+      "thiên nga"
+    ],
+    [
+      "pelican",
+      "bồ nông"
+    ],
+    [
+      "flamingo",
+      "hồng hạc"
+    ],
+    [
+      "penguin",
+      "chim cánh cụt"
+    ],
+    [
+      "ostrich",
+      "đà điểu"
+    ],
+    [
+      "emu",
+      "đà điểu Úc"
+    ],
+    [
+      "snake",
+      "rắn"
+    ],
+    [
+      "lizard",
+      "thằn lằn"
+    ],
+    [
+      "crocodile",
+      "cá sấu"
+    ],
+    [
+      "alligator",
+      "cá sấu Mỹ"
+    ],
+    [
+      "turtle",
+      "rùa"
+    ],
+    [
+      "frog",
+      "ếch"
+    ],
+    [
+      "toad",
+      "cóc"
+    ],
+    [
+      "salamander",
+      "kỳ nhông"
+    ],
+    [
+      "gecko",
+      "tắc kè"
+    ],
+    [
+      "chameleon",
+      "tắc kè hoa"
+    ],
+    [
+      "shark",
+      "cá mập"
+    ],
+    [
+      "whale",
+      "cá voi"
+    ],
+    [
+      "dolphin",
+      "cá heo"
+    ],
+    [
+      "seal",
+      "hải cẩu"
+    ],
+    [
+      "walrus",
+      "hải tượng"
+    ],
+    [
+      "octopus",
+      "bạch tuộc"
+    ],
+    [
+      "squid",
+      "mực"
+    ],
+    [
+      "jellyfish",
+      "sứa"
+    ],
+    [
+      "crab",
+      "cua"
+    ],
+    [
+      "lobster",
+      "tôm hùm"
+    ],
+    [
+      "shrimp",
+      "tôm"
+    ],
+    [
+      "snail",
+      "ốc sên"
+    ],
+    [
+      "butterfly",
+      "bướm"
+    ],
+    [
+      "bee",
+      "ong"
+    ],
+    [
+      "ant",
+      "kiến"
+    ],
+    [
+      "spider",
+      "nhện"
+    ],
+    [
+      "scorpion",
+      "bọ cạp"
+    ],
+    [
+      "mosquito",
+      "muỗi"
+    ],
+    [
+      "fly",
+      "ruồi"
+    ],
+    [
+      "dragonfly",
+      "chuồn chuồn"
+    ],
+    [
+      "grasshopper",
+      "châu chấu"
+    ],
+    [
+      "beetle",
+      "bọ"
+    ],
+    [
+      "worm",
+      "giun"
+    ],
+    [
+      "mouse",
+      "chuột"
+    ],
+    [
+      "rat",
+      "chuột cống"
+    ],
+    [
+      "hamster",
+      "chuột hamster"
+    ],
+    [
+      "guinea pig",
+      "chuột lang"
+    ],
+    [
+      "squirrel",
+      "sóc"
+    ],
+    [
+      "chipmunk",
+      "sóc chuột"
+    ],
+    [
+      "bat",
+      "dơi"
+    ],
+    [
+      "raccoon",
+      "gấu mèo"
+    ],
+    [
+      "skunk",
+      "chồn hôi"
+    ],
+    [
+      "hedgehog",
+      "nhím"
+    ],
+    [
+      "mole",
+      "chuột chũi"
+    ],
+    [
+      "porcupine",
+      "nhím gai"
+    ],
+    [
+      "kangaroo",
+      "chuột túi"
+    ],
+    [
+      "koala",
+      "gấu koala"
+    ],
+    [
+      "panda",
+      "gấu trúc"
+    ],
+    [
+      "zebra",
+      "ngựa vằn"
+    ],
+    [
+      "giraffe",
+      "hươu cao cổ"
+    ],
+    [
+      "hippo",
+      "hà mã"
+    ],
+    [
+      "rhino",
+      "tê giác"
+    ],
+    [
+      "camel",
+      "lạc đà"
+    ],
+    [
+      "donkey",
+      "lừa"
+    ],
+    [
+      "mule",
+      "la"
+    ],
+    [
+      "llama",
+      "lạc đà không bướu"
+    ],
+    [
+      "alpaca",
+      "alpaca"
+    ],
+    [
+      "buffalo",
+      "trâu"
+    ],
+    [
+      "bison",
+      "bò rừng"
+    ],
+    [
+      "yak",
+      "bò tây tạng"
+    ],
+    [
+      "reindeer",
+      "tuần lộc"
+    ],
+    [
+      "moose",
+      "nai sừng xám"
+    ],
+    [
+      "elk",
+      "nai sừng"
+    ],
+    [
+      "antelope",
+      "linh dương"
+    ],
+    [
+      "gazelle",
+      "linh dương gazen"
+    ],
+    [
+      "cheetah",
+      "báo săn"
+    ],
+    [
+      "leopard",
+      "báo"
+    ],
+    [
+      "jaguar",
+      "báo đốm"
+    ],
+    [
+      "panther",
+      "báo đen"
+    ],
+    [
+      "lynx",
+      "linh miêu"
+    ],
+    [
+      "bobcat",
+      "linh miêu đỏ"
+    ],
+    [
+      "cougar",
+      "báo sư tử"
+    ],
+    [
+      "hyena",
+      "linh cẩu"
+    ],
+    [
+      "jackal",
+      "chó rừng"
+    ],
+    [
+      "coyote",
+      "chó sói"
+    ],
+    [
+      "otter",
+      "rái cá"
+    ],
+    [
+      "beaver",
+      "hải ly"
+    ],
+    [
+      "badger",
+      "lửng"
+    ],
+    [
+      "ferret",
+      "chồn sương"
+    ],
+    [
+      "weasel",
+      "chồn"
+    ],
+    [
+      "mink",
+      "chồn vizon"
+    ],
+    [
+      "sea lion",
+      "sư tử biển"
+    ],
+    [
+      "manatee",
+      "bò biển"
+    ],
+    [
+      "dugong",
+      "cá nàng"
+    ],
+    [
+      "starfish",
+      "sao biển"
+    ],
+    [
+      "seahorse",
+      "cá ngựa"
+    ],
+    [
+      "clam",
+      "nghêu"
+    ],
+    [
+      "oyster",
+      "hàu"
+    ],
+    [
+      "mussel",
+      "trai"
+    ],
+    [
+      "urchin",
+      "nhím biển"
+    ],
+    [
+      "ray",
+      "cá đuối"
+    ],
+    [
+      "stingray",
+      "cá đuối gai"
+    ],
+    [
+      "eel",
+      "lươn"
+    ],
+    [
+      "tuna",
+      "cá ngừ"
+    ],
+    [
+      "salmon",
+      "cá hồi"
+    ],
+    [
+      "trout",
+      "cá hồi vân"
+    ],
+    [
+      "carp",
+      "cá chép"
+    ],
+    [
+      "goldfish",
+      "cá vàng"
+    ],
+    [
+      "angelfish",
+      "cá thiên thần"
+    ],
+    [
+      "clownfish",
+      "cá hề"
+    ],
+    [
+      "pufferfish",
+      "cá nóc"
+    ],
+    [
+      "swordfish",
+      "cá kiếm"
+    ],
+    [
+      "marlin",
+      "cá marlin"
+    ],
+    [
+      "barracuda",
+      "cá nhồng"
+    ],
+    [
+      "catfish",
+      "cá trê"
+    ],
+    [
+      "bass",
+      "cá vược"
+    ],
+    [
+      "perch",
+      "cá rô"
+    ],
+    [
+      "cod",
+      "cá tuyết"
+    ],
+    [
+      "herring",
+      "cá trích"
+    ],
+    [
+      "sardine",
+      "cá mòi"
+    ],
+    [
+      "anchovy",
+      "cá cơm"
+    ],
+    [
+      "prawn",
+      "tôm sú"
+    ],
+    [
+      "crayfish",
+      "tôm càng"
+    ],
+    [
+      "kingfisher",
+      "chim bói cá"
+    ],
+    [
+      "woodpecker",
+      "chim gõ kiến"
+    ],
+    [
+      "hummingbird",
+      "chim ruồi"
+    ],
+    [
+      "peacock",
+      "công"
+    ],
+    [
+      "quail",
+      "chim cút"
+    ],
+    [
+      "pheasant",
+      "chim trĩ"
+    ],
+    [
+      "dove",
+      "bồ câu"
+    ],
+    [
+      "canary",
+      "chim hoàng yến"
+    ],
+    [
+      "finch",
+      "chim sẻ nhỏ"
+    ],
+    [
+      "macaw",
+      "vẹt macaw"
+    ],
+    [
+      "cockatoo",
+      "vẹt cockatoo"
+    ],
+    [
+      "toucan",
+      "chim toucan"
+    ],
+    [
+      "stork",
+      "cò"
+    ],
+    [
+      "heron",
+      "diệc"
+    ],
+    [
+      "crane",
+      "hạc"
+    ],
+    [
+      "vulture",
+      "kền kền"
+    ],
+    [
+      "falcon",
+      "chim ưng"
+    ],
+    [
+      "osprey",
+      "chim cá"
+    ],
+    [
+      "albatross",
+      "hải âu"
+    ],
+    [
+      "puffin",
+      "chim hải âu mỏ"
+    ],
+    [
+      "cormorant",
+      "chim cốc"
+    ],
+    [
+      "ladybug",
+      "bọ rùa"
+    ],
+    [
+      "caterpillar",
+      "sâu bướm"
+    ],
+    [
+      "moth",
+      "bướm đêm"
+    ],
+    [
+      "wasp",
+      "ong vò vẽ"
+    ],
+    [
+      "hornet",
+      "ong bắp cày"
+    ],
+    [
+      "locust",
+      "châu chấu"
+    ],
+    [
+      "mantis",
+      "bọ ngựa"
+    ],
+    [
+      "stick insect",
+      "bọ que"
+    ],
+    [
+      "centipede",
+      "rết"
+    ],
+    [
+      "millipede",
+      "cuốn chiếu"
+    ],
+    [
+      "tick",
+      "bọ chét"
+    ],
+    [
+      "flea",
+      "bọ chét"
+    ],
+    [
+      "termite",
+      "mối"
+    ],
+    [
+      "cockroach",
+      "gián"
+    ],
+    [
+      "firefly",
+      "đom đóm"
+    ],
+    [
+      "earthworm",
+      "giun đất"
+    ],
+    [
+      "leech",
+      "đỉa"
+    ],
+    [
+      "narwhal",
+      "kỳ lân biển"
+    ],
+    [
+      "beluga",
+      "cá heo trắng"
+    ],
+    [
+      "orca",
+      "cá voi sát thủ"
+    ],
+    [
+      "polar bear",
+      "gấu Bắc Cực"
+    ],
+    [
+      "grizzly bear",
+      "gấu xám"
+    ],
+    [
+      "sloth",
+      "lười"
+    ],
+    [
+      "armadillo",
+      "tatu"
+    ],
+    [
+      "platypus",
+      "thú mỏ vịt"
+    ],
+    [
+      "wombat",
+      "gấu túi wombat"
+    ]
+  ],
+  "Màu sắc": [
+    [
+      "red",
+      "màu đỏ"
+    ],
+    [
+      "blue",
+      "màu xanh dương"
+    ],
+    [
+      "green",
+      "màu xanh lá"
+    ],
+    [
+      "yellow",
+      "màu vàng"
+    ],
+    [
+      "orange",
+      "màu cam"
+    ],
+    [
+      "purple",
+      "màu tím"
+    ],
+    [
+      "pink",
+      "màu hồng"
+    ],
+    [
+      "brown",
+      "màu nâu"
+    ],
+    [
+      "black",
+      "màu đen"
+    ],
+    [
+      "white",
+      "màu trắng"
+    ],
+    [
+      "gray",
+      "màu xám"
+    ],
+    [
+      "grey",
+      "màu xám"
+    ],
+    [
+      "silver",
+      "màu bạc"
+    ],
+    [
+      "gold",
+      "màu vàng kim"
+    ],
+    [
+      "beige",
+      "màu be"
+    ],
+    [
+      "cream",
+      "màu kem"
+    ],
+    [
+      "ivory",
+      "màu ngà"
+    ],
+    [
+      "maroon",
+      "màu đỏ nâu"
+    ],
+    [
+      "navy",
+      "màu xanh navy"
+    ],
+    [
+      "teal",
+      "màu xanh ngọc"
+    ],
+    [
+      "turquoise",
+      "màu ngọc lam"
+    ],
+    [
+      "cyan",
+      "màu lơ"
+    ],
+    [
+      "magenta",
+      "màu đỏ tươi"
+    ],
+    [
+      "violet",
+      "màu tím nhạt"
+    ],
+    [
+      "indigo",
+      "màu chàm"
+    ],
+    [
+      "lavender",
+      "màu oải hương"
+    ],
+    [
+      "lilac",
+      "màu tím lilac"
+    ],
+    [
+      "crimson",
+      "màu đỏ thẫm"
+    ],
+    [
+      "scarlet",
+      "màu đỏ tươi"
+    ],
+    [
+      "burgundy",
+      "màu đỏ rượu vang"
+    ],
+    [
+      "rose",
+      "màu hồng hoa hồng"
+    ],
+    [
+      "coral",
+      "màu san hô"
+    ],
+    [
+      "salmon",
+      "màu hồng cam"
+    ],
+    [
+      "peach",
+      "màu đào"
+    ],
+    [
+      "amber",
+      "màu hổ phách"
+    ],
+    [
+      "lemon",
+      "màu chanh"
+    ],
+    [
+      "lime",
+      "màu chanh xanh"
+    ],
+    [
+      "mint",
+      "màu bạc hà"
+    ],
+    [
+      "emerald",
+      "màu ngọc lục bảo"
+    ],
+    [
+      "jade",
+      "màu ngọc bích"
+    ],
+    [
+      "olive",
+      "màu ô liu"
+    ],
+    [
+      "khaki",
+      "màu kaki"
+    ],
+    [
+      "tan",
+      "màu nâu nhạt"
+    ],
+    [
+      "chocolate",
+      "màu sô cô la"
+    ],
+    [
+      "coffee",
+      "màu cà phê"
+    ],
+    [
+      "caramel",
+      "màu caramel"
+    ],
+    [
+      "honey",
+      "màu mật ong"
+    ],
+    [
+      "mustard",
+      "màu mù tạt"
+    ],
+    [
+      "rust",
+      "màu gỉ sắt"
+    ],
+    [
+      "copper",
+      "màu đồng"
+    ],
+    [
+      "bronze",
+      "màu đồng thau"
+    ],
+    [
+      "platinum",
+      "màu bạch kim"
+    ],
+    [
+      "ruby",
+      "màu hồng ngọc"
+    ],
+    [
+      "sapphire",
+      "màu lam ngọc"
+    ],
+    [
+      "topaz",
+      "màu vàng topaz"
+    ],
+    [
+      "amethyst",
+      "màu tím thạch anh"
+    ],
+    [
+      "pearl",
+      "màu ngọc trai"
+    ],
+    [
+      "charcoal",
+      "màu than"
+    ],
+    [
+      "slate",
+      "màu xám đá"
+    ],
+    [
+      "ash",
+      "màu tro"
+    ],
+    [
+      "snow",
+      "màu tuyết"
+    ],
+    [
+      "sky blue",
+      "màu xanh da trời"
+    ],
+    [
+      "ocean blue",
+      "màu xanh đại dương"
+    ],
+    [
+      "royal blue",
+      "màu xanh hoàng gia"
+    ],
+    [
+      "baby blue",
+      "màu xanh nhạt"
+    ],
+    [
+      "light blue",
+      "màu xanh nhạt"
+    ],
+    [
+      "dark blue",
+      "màu xanh đậm"
+    ],
+    [
+      "light green",
+      "màu xanh lá nhạt"
+    ],
+    [
+      "dark green",
+      "màu xanh lá đậm"
+    ],
+    [
+      "forest green",
+      "màu xanh rừng"
+    ],
+    [
+      "grass green",
+      "màu xanh cỏ"
+    ],
+    [
+      "sea green",
+      "màu xanh biển"
+    ],
+    [
+      "army green",
+      "màu xanh quân đội"
+    ],
+    [
+      "light pink",
+      "màu hồng nhạt"
+    ],
+    [
+      "hot pink",
+      "màu hồng đậm"
+    ],
+    [
+      "deep pink",
+      "màu hồng thẫm"
+    ],
+    [
+      "light yellow",
+      "màu vàng nhạt"
+    ],
+    [
+      "bright yellow",
+      "màu vàng tươi"
+    ],
+    [
+      "golden yellow",
+      "màu vàng óng"
+    ],
+    [
+      "pale yellow",
+      "màu vàng nhạt"
+    ],
+    [
+      "light orange",
+      "màu cam nhạt"
+    ],
+    [
+      "dark orange",
+      "màu cam đậm"
+    ],
+    [
+      "burnt orange",
+      "màu cam cháy"
+    ],
+    [
+      "light purple",
+      "màu tím nhạt"
+    ],
+    [
+      "dark purple",
+      "màu tím đậm"
+    ],
+    [
+      "light brown",
+      "màu nâu nhạt"
+    ],
+    [
+      "dark brown",
+      "màu nâu đậm"
+    ],
+    [
+      "light gray",
+      "màu xám nhạt"
+    ],
+    [
+      "dark gray",
+      "màu xám đậm"
+    ],
+    [
+      "off white",
+      "màu trắng ngà"
+    ],
+    [
+      "eggshell",
+      "màu vỏ trứng"
+    ],
+    [
+      "sand",
+      "màu cát"
+    ],
+    [
+      "wheat",
+      "màu lúa mì"
+    ],
+    [
+      "straw",
+      "màu rơm"
+    ],
+    [
+      "moss",
+      "màu rêu"
+    ],
+    [
+      "fern",
+      "màu dương xỉ"
+    ],
+    [
+      "sage",
+      "màu xanh xám"
+    ],
+    [
+      "aqua",
+      "màu xanh nước"
+    ],
+    [
+      "azure",
+      "màu xanh thiên thanh"
+    ],
+    [
+      "cerulean",
+      "màu xanh cerulean"
+    ],
+    [
+      "cobalt",
+      "màu xanh coban"
+    ],
+    [
+      "periwinkle",
+      "màu xanh tím nhạt"
+    ],
+    [
+      "plum",
+      "màu mận"
+    ],
+    [
+      "mauve",
+      "màu tím tro"
+    ],
+    [
+      "fuchsia",
+      "màu hồng tím"
+    ],
+    [
+      "orchid",
+      "màu hoa lan"
+    ],
+    [
+      "wine",
+      "màu rượu vang"
+    ],
+    [
+      "brick",
+      "màu gạch"
+    ],
+    [
+      "terracotta",
+      "màu đất nung"
+    ],
+    [
+      "sienna",
+      "màu đất sienna"
+    ],
+    [
+      "umber",
+      "màu đất umbra"
+    ],
+    [
+      "sepia",
+      "màu nâu sepia"
+    ],
+    [
+      "mahogany",
+      "màu gỗ gụ"
+    ],
+    [
+      "walnut",
+      "màu gỗ óc chó"
+    ],
+    [
+      "chestnut",
+      "màu hạt dẻ"
+    ],
+    [
+      "cinnamon",
+      "màu quế"
+    ],
+    [
+      "ginger",
+      "màu gừng"
+    ],
+    [
+      "paprika",
+      "màu ớt bột"
+    ],
+    [
+      "chili red",
+      "màu đỏ ớt"
+    ],
+    [
+      "tomato red",
+      "màu đỏ cà chua"
+    ],
+    [
+      "cherry red",
+      "màu đỏ cherry"
+    ],
+    [
+      "blood red",
+      "màu đỏ máu"
+    ],
+    [
+      "fire red",
+      "màu đỏ lửa"
+    ],
+    [
+      "sunset orange",
+      "màu cam hoàng hôn"
+    ],
+    [
+      "sunrise pink",
+      "màu hồng bình minh"
+    ],
+    [
+      "dawn",
+      "màu bình minh"
+    ],
+    [
+      "dusk",
+      "màu hoàng hôn"
+    ],
+    [
+      "midnight blue",
+      "màu xanh nửa đêm"
+    ],
+    [
+      "twilight",
+      "màu chạng vạng"
+    ],
+    [
+      "moonlight",
+      "màu ánh trăng"
+    ],
+    [
+      "starlight",
+      "màu ánh sao"
+    ],
+    [
+      "sunlight",
+      "màu ánh nắng"
+    ],
+    [
+      "rainbow",
+      "cầu vồng"
+    ],
+    [
+      "multicolor",
+      "nhiều màu"
+    ],
+    [
+      "colorful",
+      "đầy màu sắc"
+    ],
+    [
+      "colorless",
+      "không màu"
+    ],
+    [
+      "transparent",
+      "trong suốt"
+    ],
+    [
+      "opaque",
+      "mờ đục"
+    ],
+    [
+      "bright",
+      "sáng"
+    ],
+    [
+      "dark",
+      "tối"
+    ],
+    [
+      "light",
+      "nhạt"
+    ],
+    [
+      "pale",
+      "nhạt"
+    ],
+    [
+      "deep",
+      "đậm"
+    ],
+    [
+      "vivid",
+      "rực rỡ"
+    ],
+    [
+      "dull",
+      "xỉn"
+    ],
+    [
+      "pastel",
+      "màu pastel"
+    ],
+    [
+      "neon",
+      "màu neon"
+    ],
+    [
+      "fluorescent",
+      "màu huỳnh quang"
+    ],
+    [
+      "metallic",
+      "màu kim loại"
+    ],
+    [
+      "matte",
+      "màu mờ"
+    ],
+    [
+      "glossy",
+      "màu bóng"
+    ],
+    [
+      "shiny",
+      "bóng loáng"
+    ],
+    [
+      "faded",
+      "phai màu"
+    ],
+    [
+      "vibrant",
+      "sống động"
+    ],
+    [
+      "muted",
+      "trầm"
+    ],
+    [
+      "warm color",
+      "màu ấm"
+    ],
+    [
+      "cool color",
+      "màu lạnh"
+    ],
+    [
+      "primary color",
+      "màu cơ bản"
+    ],
+    [
+      "secondary color",
+      "màu phụ"
+    ],
+    [
+      "complementary",
+      "màu bổ sung"
+    ],
+    [
+      "analogous",
+      "màu tương đồng"
+    ],
+    [
+      "monochrome",
+      "đơn sắc"
+    ],
+    [
+      "gradient",
+      "màu chuyển"
+    ],
+    [
+      "shade",
+      "sắc thái đậm"
+    ],
+    [
+      "tint",
+      "sắc thái nhạt"
+    ],
+    [
+      "tone",
+      "tông màu"
+    ],
+    [
+      "hue",
+      "sắc độ"
+    ],
+    [
+      "saturation",
+      "độ bão hòa"
+    ],
+    [
+      "brightness",
+      "độ sáng"
+    ],
+    [
+      "contrast",
+      "tương phản"
+    ],
+    [
+      "blend",
+      "pha màu"
+    ],
+    [
+      "mix",
+      "trộn màu"
+    ],
+    [
+      "paint",
+      "sơn"
+    ],
+    [
+      "dye",
+      "nhuộm"
+    ],
+    [
+      "ink",
+      "mực"
+    ],
+    [
+      "crayon",
+      "bút sáp màu"
+    ],
+    [
+      "marker",
+      "bút dạ"
+    ],
+    [
+      "pencil color",
+      "bút chì màu"
+    ],
+    [
+      "watercolor",
+      "màu nước"
+    ],
+    [
+      "oil paint",
+      "sơn dầu"
+    ],
+    [
+      "acrylic",
+      "màu acrylic"
+    ],
+    [
+      "pigment",
+      "chất màu"
+    ],
+    [
+      "palette",
+      "bảng màu"
+    ],
+    [
+      "spectrum",
+      "quang phổ"
+    ],
+    [
+      "prism",
+      "lăng kính"
+    ],
+    [
+      "ultraviolet",
+      "tia cực tím"
+    ],
+    [
+      "infrared",
+      "hồng ngoại"
+    ],
+    [
+      "fluorescent green",
+      "xanh huỳnh quang"
+    ],
+    [
+      "fluorescent pink",
+      "hồng huỳnh quang"
+    ],
+    [
+      "electric blue",
+      "xanh điện"
+    ],
+    [
+      "electric purple",
+      "tím điện"
+    ],
+    [
+      "lime green",
+      "xanh chanh"
+    ],
+    [
+      "chartreuse",
+      "xanh chartreuse"
+    ],
+    [
+      "spring green",
+      "xanh xuân"
+    ],
+    [
+      "summer yellow",
+      "vàng hè"
+    ],
+    [
+      "autumn red",
+      "đỏ thu"
+    ],
+    [
+      "winter white",
+      "trắng đông"
+    ],
+    [
+      "spring pink",
+      "hồng xuân"
+    ],
+    [
+      "ocean teal",
+      "xanh ngọc biển"
+    ],
+    [
+      "desert sand",
+      "cát sa mạc"
+    ]
+  ],
+  "Gia đình": [
+    [
+      "mother",
+      "mẹ"
+    ],
+    [
+      "father",
+      "bố"
+    ],
+    [
+      "parents",
+      "bố mẹ"
+    ],
+    [
+      "mom",
+      "mẹ"
+    ],
+    [
+      "dad",
+      "bố"
+    ],
+    [
+      "sister",
+      "chị/em gái"
+    ],
+    [
+      "brother",
+      "anh/em trai"
+    ],
+    [
+      "sibling",
+      "anh chị em"
+    ],
+    [
+      "siblings",
+      "anh chị em"
+    ],
+    [
+      "son",
+      "con trai"
+    ],
+    [
+      "daughter",
+      "con gái"
+    ],
+    [
+      "child",
+      "con cái"
+    ],
+    [
+      "children",
+      "các con"
+    ],
+    [
+      "baby",
+      "em bé"
+    ],
+    [
+      "infant",
+      "trẻ sơ sinh"
+    ],
+    [
+      "toddler",
+      "trẻ mới biết đi"
+    ],
+    [
+      "kid",
+      "trẻ em"
+    ],
+    [
+      "teenager",
+      "thiếu niên"
+    ],
+    [
+      "adult",
+      "người lớn"
+    ],
+    [
+      "grandmother",
+      "bà"
+    ],
+    [
+      "grandfather",
+      "ông"
+    ],
+    [
+      "grandma",
+      "bà"
+    ],
+    [
+      "grandpa",
+      "ông"
+    ],
+    [
+      "grandparents",
+      "ông bà"
+    ],
+    [
+      "grandson",
+      "cháu trai"
+    ],
+    [
+      "granddaughter",
+      "cháu gái"
+    ],
+    [
+      "grandchild",
+      "cháu"
+    ],
+    [
+      "aunt",
+      "cô/dì"
+    ],
+    [
+      "uncle",
+      "chú/bác"
+    ],
+    [
+      "cousin",
+      "anh chị em họ"
+    ],
+    [
+      "niece",
+      "cháu gái"
+    ],
+    [
+      "nephew",
+      "cháu trai"
+    ],
+    [
+      "husband",
+      "chồng"
+    ],
+    [
+      "wife",
+      "vợ"
+    ],
+    [
+      "spouse",
+      "vợ/chồng"
+    ],
+    [
+      "partner",
+      "bạn đời"
+    ],
+    [
+      "family",
+      "gia đình"
+    ],
+    [
+      "relative",
+      "người thân"
+    ],
+    [
+      "kin",
+      "họ hàng"
+    ],
+    [
+      "ancestor",
+      "tổ tiên"
+    ],
+    [
+      "descendant",
+      "hậu duệ"
+    ],
+    [
+      "orphan",
+      "trẻ mồ côi"
+    ],
+    [
+      "twin",
+      "sinh đôi"
+    ],
+    [
+      "triplet",
+      "sinh ba"
+    ],
+    [
+      "elder",
+      "người lớn tuổi"
+    ],
+    [
+      "younger",
+      "người nhỏ tuổi hơn"
+    ],
+    [
+      "stepmother",
+      "mẹ kế"
+    ],
+    [
+      "stepfather",
+      "bố dượng"
+    ],
+    [
+      "stepsister",
+      "chị/em gái kế"
+    ],
+    [
+      "stepbrother",
+      "anh/em trai kế"
+    ],
+    [
+      "stepchild",
+      "con riêng"
+    ],
+    [
+      "half-brother",
+      "anh/em trai cùng cha/mẹ"
+    ],
+    [
+      "half-sister",
+      "chị/em gái cùng cha/mẹ"
+    ],
+    [
+      "godmother",
+      "mẹ đỡ đầu"
+    ],
+    [
+      "godfather",
+      "bố đỡ đầu"
+    ],
+    [
+      "godchild",
+      "con đỡ đầu"
+    ],
+    [
+      "godson",
+      "con trai đỡ đầu"
+    ],
+    [
+      "goddaughter",
+      "con gái đỡ đầu"
+    ],
+    [
+      "bride",
+      "cô dâu"
+    ],
+    [
+      "groom",
+      "chú rể"
+    ],
+    [
+      "wedding",
+      "đám cưới"
+    ],
+    [
+      "marriage",
+      "hôn nhân"
+    ],
+    [
+      "divorce",
+      "ly hôn"
+    ],
+    [
+      "engagement",
+      "đính hôn"
+    ],
+    [
+      "fiancé",
+      "chồng/chưa cưới"
+    ],
+    [
+      "fiancée",
+      "vợ/chưa cưới"
+    ],
+    [
+      "mother-in-law",
+      "mẹ chồng/vợ"
+    ],
+    [
+      "father-in-law",
+      "bố chồng/vợ"
+    ],
+    [
+      "brother-in-law",
+      "anh/em rể/chồng"
+    ],
+    [
+      "sister-in-law",
+      "chị/em dâu/vợ"
+    ],
+    [
+      "son-in-law",
+      "con rể"
+    ],
+    [
+      "daughter-in-law",
+      "con dâu"
+    ],
+    [
+      "nanny",
+      "bảo mẫu"
+    ],
+    [
+      "babysitter",
+      "người trông trẻ"
+    ],
+    [
+      "caregiver",
+      "người chăm sóc"
+    ],
+    [
+      "guardian",
+      "người giám hộ"
+    ],
+    [
+      "foster parent",
+      "cha/mẹ nuôi"
+    ],
+    [
+      "adoptive parent",
+      "cha/mẹ nhận con nuôi"
+    ],
+    [
+      "adopted child",
+      "con nuôi"
+    ],
+    [
+      "single parent",
+      "cha/mẹ đơn thân"
+    ],
+    [
+      "blended family",
+      "gia đình tái hợp"
+    ],
+    [
+      "household",
+      "hộ gia đình"
+    ],
+    [
+      "home",
+      "nhà"
+    ],
+    [
+      "family tree",
+      "cây gia phả"
+    ],
+    [
+      "lineage",
+      "dòng họ"
+    ],
+    [
+      "generation",
+      "thế hệ"
+    ],
+    [
+      "ancestry",
+      "tổ tiên"
+    ],
+    [
+      "heritage",
+      "di sản"
+    ],
+    [
+      "surname",
+      "họ"
+    ],
+    [
+      "maiden name",
+      "họ thời con gái"
+    ],
+    [
+      "nickname",
+      "biệt danh"
+    ],
+    [
+      "pet name",
+      "tên thân mật"
+    ],
+    [
+      "dear",
+      "em yêu"
+    ],
+    [
+      "honey",
+      "anh yêu"
+    ],
+    [
+      "sweetheart",
+      "người yêu"
+    ],
+    [
+      "darling",
+      "cưng"
+    ],
+    [
+      "love",
+      "tình yêu"
+    ],
+    [
+      "hug",
+      "ôm"
+    ],
+    [
+      "kiss",
+      "hôn"
+    ],
+    [
+      "cuddle",
+      "ôm ấp"
+    ],
+    [
+      "family photo",
+      "ảnh gia đình"
+    ],
+    [
+      "family dinner",
+      "bữa tối gia đình"
+    ],
+    [
+      "family trip",
+      "chuyến đi gia đình"
+    ],
+    [
+      "family reunion",
+      "đoàn tụ gia đình"
+    ],
+    [
+      "birthday",
+      "sinh nhật"
+    ],
+    [
+      "anniversary",
+      "ngày kỷ niệm"
+    ],
+    [
+      "holiday",
+      "ngày lễ"
+    ],
+    [
+      "festival",
+      "lễ hội"
+    ],
+    [
+      "celebration",
+      "lễ kỷ niệm"
+    ],
+    [
+      "gift",
+      "quà tặng"
+    ],
+    [
+      "present",
+      "món quà"
+    ],
+    [
+      "card",
+      "thiệp"
+    ],
+    [
+      "letter",
+      "thư"
+    ],
+    [
+      "call",
+      "cuộc gọi"
+    ],
+    [
+      "visit",
+      "thăm"
+    ],
+    [
+      "elderly",
+      "người cao tuổi"
+    ],
+    [
+      "senior",
+      "người lớn tuổi"
+    ],
+    [
+      "youth",
+      "thanh niên"
+    ],
+    [
+      "middle-aged",
+      "trung niên"
+    ],
+    [
+      "newborn",
+      "sơ sinh"
+    ],
+    [
+      "pregnant",
+      "mang thai"
+    ],
+    [
+      "expecting",
+      "sắp sinh"
+    ],
+    [
+      "parenting",
+      "nuôi dạy con"
+    ],
+    [
+      "fatherhood",
+      "làm bố"
+    ],
+    [
+      "motherhood",
+      "làm mẹ"
+    ],
+    [
+      "childhood",
+      "tuổi thơ"
+    ],
+    [
+      "youthhood",
+      "tuổi trẻ"
+    ],
+    [
+      "adulthood",
+      "tuổi trưởng thành"
+    ],
+    [
+      "old age",
+      "tuổi già"
+    ],
+    [
+      "retirement",
+      "nghỉ hưu"
+    ],
+    [
+      "neighbor",
+      "hàng xóm"
+    ],
+    [
+      "friend",
+      "bạn bè"
+    ],
+    [
+      "best friend",
+      "bạn thân"
+    ],
+    [
+      "classmate",
+      "bạn cùng lớp"
+    ],
+    [
+      "roommate",
+      "bạn cùng phòng"
+    ],
+    [
+      "colleague",
+      "đồng nghiệp"
+    ],
+    [
+      "boss",
+      "sếp"
+    ],
+    [
+      "employee",
+      "nhân viên"
+    ],
+    [
+      "teacher",
+      "giáo viên"
+    ],
+    [
+      "student",
+      "học sinh"
+    ],
+    [
+      "doctor",
+      "bác sĩ"
+    ],
+    [
+      "nurse",
+      "y tá"
+    ],
+    [
+      "police",
+      "cảnh sát"
+    ],
+    [
+      "firefighter",
+      "lính cứu hỏa"
+    ],
+    [
+      "soldier",
+      "binh sĩ"
+    ],
+    [
+      "farmer",
+      "nông dân"
+    ],
+    [
+      "worker",
+      "công nhân"
+    ],
+    [
+      "driver",
+      "tài xế"
+    ],
+    [
+      "chef",
+      "đầu bếp"
+    ],
+    [
+      "waiter",
+      "bồi bàn"
+    ],
+    [
+      "shopkeeper",
+      "chủ cửa hàng"
+    ],
+    [
+      "customer",
+      "khách hàng"
+    ],
+    [
+      "guest",
+      "khách"
+    ],
+    [
+      "host",
+      "chủ nhà"
+    ],
+    [
+      "hostess",
+      "nữ chủ nhà"
+    ],
+    [
+      "landlord",
+      "chủ nhà cho thuê"
+    ],
+    [
+      "tenant",
+      "người thuê nhà"
+    ],
+    [
+      "room",
+      "phòng"
+    ],
+    [
+      "bedroom",
+      "phòng ngủ"
+    ],
+    [
+      "living room",
+      "phòng khách"
+    ],
+    [
+      "kitchen",
+      "nhà bếp"
+    ],
+    [
+      "bathroom",
+      "phòng tắm"
+    ],
+    [
+      "dining room",
+      "phòng ăn"
+    ],
+    [
+      "garden",
+      "vườn"
+    ],
+    [
+      "yard",
+      "sân"
+    ],
+    [
+      "garage",
+      "garage"
+    ],
+    [
+      "balcony",
+      "ban công"
+    ],
+    [
+      "roof",
+      "mái nhà"
+    ],
+    [
+      "door",
+      "cửa"
+    ],
+    [
+      "window",
+      "cửa sổ"
+    ],
+    [
+      "table",
+      "bàn"
+    ],
+    [
+      "chair",
+      "ghế"
+    ],
+    [
+      "bed",
+      "giường"
+    ],
+    [
+      "sofa",
+      "ghế sofa"
+    ],
+    [
+      "television",
+      "tivi"
+    ],
+    [
+      "fridge",
+      "tủ lạnh"
+    ],
+    [
+      "stove",
+      "bếp"
+    ],
+    [
+      "sink",
+      "bồn rửa"
+    ],
+    [
+      "cupboard",
+      "tủ"
+    ],
+    [
+      "shelf",
+      "kệ"
+    ],
+    [
+      "lamp",
+      "đèn"
+    ],
+    [
+      "clock",
+      "đồng hồ"
+    ],
+    [
+      "mirror",
+      "gương"
+    ],
+    [
+      "picture",
+      "bức tranh"
+    ],
+    [
+      "carpet",
+      "thảm"
+    ],
+    [
+      "curtain",
+      "rèm cửa"
+    ],
+    [
+      "pillow",
+      "gối"
+    ],
+    [
+      "blanket",
+      "chăn"
+    ],
+    [
+      "towel",
+      "khăn tắm"
+    ],
+    [
+      "soap",
+      "xà phòng"
+    ],
+    [
+      "toothbrush",
+      "bàn chải đánh răng"
+    ],
+    [
+      "toothpaste",
+      "kem đánh răng"
+    ],
+    [
+      "shampoo",
+      "dầu gội"
+    ],
+    [
+      "comb",
+      "lược"
+    ],
+    [
+      "clothes",
+      "quần áo"
+    ],
+    [
+      "shirt",
+      "áo sơ mi"
+    ],
+    [
+      "pants",
+      "quần dài"
+    ],
+    [
+      "dress",
+      "váy"
+    ],
+    [
+      "skirt",
+      "chân váy"
+    ],
+    [
+      "shoes",
+      "giày"
+    ]
+  ],
+  "Thức ăn": [
+    [
+      "apple",
+      "quả táo"
+    ],
+    [
+      "banana",
+      "quả chuối"
+    ],
+    [
+      "orange",
+      "quả cam"
+    ],
+    [
+      "grape",
+      "quả nho"
+    ],
+    [
+      "strawberry",
+      "dâu tây"
+    ],
+    [
+      "blueberry",
+      "việt quất"
+    ],
+    [
+      "raspberry",
+      "mâm xôi"
+    ],
+    [
+      "blackberry",
+      "mâm xôi đen"
+    ],
+    [
+      "cherry",
+      "quả cherry"
+    ],
+    [
+      "peach",
+      "quả đào"
+    ],
+    [
+      "pear",
+      "quả lê"
+    ],
+    [
+      "plum",
+      "quả mận"
+    ],
+    [
+      "apricot",
+      "quả mơ"
+    ],
+    [
+      "mango",
+      "quả xoài"
+    ],
+    [
+      "pineapple",
+      "quả dứa"
+    ],
+    [
+      "watermelon",
+      "dưa hấu"
+    ],
+    [
+      "melon",
+      "dưa"
+    ],
+    [
+      "cantaloupe",
+      "dưa cam"
+    ],
+    [
+      "honeydew",
+      "dưa lưới"
+    ],
+    [
+      "kiwi",
+      "quả kiwi"
+    ],
+    [
+      "papaya",
+      "đu đủ"
+    ],
+    [
+      "coconut",
+      "dừa"
+    ],
+    [
+      "avocado",
+      "quả bơ"
+    ],
+    [
+      "lemon",
+      "chanh vàng"
+    ],
+    [
+      "lime",
+      "chanh xanh"
+    ],
+    [
+      "grapefruit",
+      "bưởi chùm"
+    ],
+    [
+      "tangerine",
+      "quýt"
+    ],
+    [
+      "mandarin",
+      "quýt"
+    ],
+    [
+      "fig",
+      "quả sung"
+    ],
+    [
+      "date",
+      "quả chà là"
+    ],
+    [
+      "raisin",
+      "nho khô"
+    ],
+    [
+      "prune",
+      "mận khô"
+    ],
+    [
+      "cranberry",
+      "nam việt quất"
+    ],
+    [
+      "pomegranate",
+      "lựu"
+    ],
+    [
+      "lychee",
+      "vải"
+    ],
+    [
+      "durian",
+      "sầu riêng"
+    ],
+    [
+      "jackfruit",
+      "mít"
+    ],
+    [
+      "rambutan",
+      "chôm chôm"
+    ],
+    [
+      "mangosteen",
+      "măng cụt"
+    ],
+    [
+      "dragon fruit",
+      "thanh long"
+    ],
+    [
+      "potato",
+      "khoai tây"
+    ],
+    [
+      "tomato",
+      "cà chua"
+    ],
+    [
+      "carrot",
+      "cà rốt"
+    ],
+    [
+      "onion",
+      "hành tây"
+    ],
+    [
+      "garlic",
+      "tỏi"
+    ],
+    [
+      "ginger",
+      "gừng"
+    ],
+    [
+      "pepper",
+      "ớt/hạt tiêu"
+    ],
+    [
+      "chili",
+      "ớt"
+    ],
+    [
+      "cucumber",
+      "dưa chuột"
+    ],
+    [
+      "lettuce",
+      "rau xà lách"
+    ],
+    [
+      "cabbage",
+      "bắp cải"
+    ],
+    [
+      "broccoli",
+      "bông cải xanh"
+    ],
+    [
+      "cauliflower",
+      "bông cải trắng"
+    ],
+    [
+      "spinach",
+      "rau bina"
+    ],
+    [
+      "kale",
+      "cải xoăn"
+    ],
+    [
+      "celery",
+      "cần tây"
+    ],
+    [
+      "corn",
+      "ngô/bắp"
+    ],
+    [
+      "pea",
+      "đậu Hà Lan"
+    ],
+    [
+      "bean",
+      "đậu"
+    ],
+    [
+      "lentil",
+      "đậu lăng"
+    ],
+    [
+      "chickpea",
+      "đậu gà"
+    ],
+    [
+      "soybean",
+      "đậu nành"
+    ],
+    [
+      "peanut",
+      "đậu phộng"
+    ],
+    [
+      "almond",
+      "hạnh nhân"
+    ],
+    [
+      "walnut",
+      "óc chó"
+    ],
+    [
+      "cashew",
+      "hạt điều"
+    ],
+    [
+      "pistachio",
+      "hạt dẻ cười"
+    ],
+    [
+      "hazelnut",
+      "hạt phỉ"
+    ],
+    [
+      "pecan",
+      "hạt pecan"
+    ],
+    [
+      "macadamia",
+      "hạt macadamia"
+    ],
+    [
+      "sesame",
+      "mè"
+    ],
+    [
+      "sunflower seed",
+      "hạt hướng dương"
+    ],
+    [
+      "pumpkin seed",
+      "hạt bí"
+    ],
+    [
+      "rice",
+      "gạo/cơm"
+    ],
+    [
+      "wheat",
+      "lúa mì"
+    ],
+    [
+      "bread",
+      "bánh mì"
+    ],
+    [
+      "noodle",
+      "mì"
+    ],
+    [
+      "pasta",
+      "mì Ý"
+    ],
+    [
+      "spaghetti",
+      "mì spaghetti"
+    ],
+    [
+      "macaroni",
+      "mì ống"
+    ],
+    [
+      "flour",
+      "bột mì"
+    ],
+    [
+      "oat",
+      "yến mạch"
+    ],
+    [
+      "barley",
+      "lúa mạch"
+    ],
+    [
+      "cereal",
+      "ngũ cốc"
+    ],
+    [
+      "porridge",
+      "cháo"
+    ],
+    [
+      "egg",
+      "trứng"
+    ],
+    [
+      "milk",
+      "sữa"
+    ],
+    [
+      "cheese",
+      "phô mai"
+    ],
+    [
+      "butter",
+      "bơ"
+    ],
+    [
+      "yogurt",
+      "sữa chua"
+    ],
+    [
+      "cream",
+      "kem"
+    ],
+    [
+      "honey",
+      "mật ong"
+    ],
+    [
+      "sugar",
+      "đường"
+    ],
+    [
+      "salt",
+      "muối"
+    ],
+    [
+      "oil",
+      "dầu ăn"
+    ],
+    [
+      "vinegar",
+      "giấm"
+    ],
+    [
+      "sauce",
+      "nước sốt"
+    ],
+    [
+      "ketchup",
+      "tương cà"
+    ],
+    [
+      "mustard",
+      "mù tạt"
+    ],
+    [
+      "mayonnaise",
+      "sốt mayonnaise"
+    ],
+    [
+      "soup",
+      "súp/canh"
+    ],
+    [
+      "stew",
+      "món hầm"
+    ],
+    [
+      "salad",
+      "salad"
+    ],
+    [
+      "sandwich",
+      "bánh mì kẹp"
+    ],
+    [
+      "burger",
+      "bánh burger"
+    ],
+    [
+      "pizza",
+      "pizza"
+    ],
+    [
+      "taco",
+      "taco"
+    ],
+    [
+      "sushi",
+      "sushi"
+    ],
+    [
+      "ramen",
+      "mì ramen"
+    ],
+    [
+      "curry",
+      "cà ri"
+    ],
+    [
+      "steak",
+      "bít tết"
+    ],
+    [
+      "pork",
+      "thịt heo"
+    ],
+    [
+      "beef",
+      "thịt bò"
+    ],
+    [
+      "lamb",
+      "thịt cừu"
+    ],
+    [
+      "chicken",
+      "thịt gà"
+    ],
+    [
+      "duck",
+      "thịt vịt"
+    ],
+    [
+      "fish",
+      "cá"
+    ],
+    [
+      "shrimp",
+      "tôm"
+    ],
+    [
+      "crab",
+      "cua"
+    ],
+    [
+      "sausage",
+      "xúc xích"
+    ],
+    [
+      "bacon",
+      "thịt xông khói"
+    ],
+    [
+      "ham",
+      "giăm bông"
+    ],
+    [
+      "tofu",
+      "đậu phụ"
+    ],
+    [
+      "mushroom",
+      "nấm"
+    ],
+    [
+      "seaweed",
+      "rong biển"
+    ],
+    [
+      "dumpling",
+      "bánh bao/há cảo"
+    ],
+    [
+      "spring roll",
+      "chả giò"
+    ],
+    [
+      "fried rice",
+      "cơm chiên"
+    ],
+    [
+      "pho",
+      "phở"
+    ],
+    [
+      "bun",
+      "bún"
+    ],
+    [
+      "banh mi",
+      "bánh mì Việt Nam"
+    ],
+    [
+      "com tam",
+      "cơm tấm"
+    ],
+    [
+      "bun bo",
+      "bún bò"
+    ],
+    [
+      "banh cuon",
+      "bánh cuốn"
+    ],
+    [
+      "banh xeo",
+      "bánh xèo"
+    ],
+    [
+      "goi cuon",
+      "gỏi cuốn"
+    ],
+    [
+      "nem",
+      "nem rán"
+    ],
+    [
+      "cha gio",
+      "chả giò"
+    ],
+    [
+      "bo kho",
+      "bò kho"
+    ],
+    [
+      "canh chua",
+      "canh chua"
+    ],
+    [
+      "hot pot",
+      "lẩu"
+    ],
+    [
+      "grilled pork",
+      "thịt nướng"
+    ],
+    [
+      "steamed fish",
+      "cá hấp"
+    ],
+    [
+      "roast chicken",
+      "gà quay"
+    ],
+    [
+      "boiled egg",
+      "trứng luộc"
+    ],
+    [
+      "fried egg",
+      "trứng chiên"
+    ],
+    [
+      "omelette",
+      "trứng ốp la"
+    ],
+    [
+      "pancake",
+      "bánh kếp"
+    ],
+    [
+      "waffle",
+      "bánh waffle"
+    ],
+    [
+      "croissant",
+      "bánh sừng bò"
+    ],
+    [
+      "donut",
+      "bánh vòng"
+    ],
+    [
+      "cookie",
+      "bánh quy"
+    ],
+    [
+      "cake",
+      "bánh ngọt"
+    ],
+    [
+      "pie",
+      "bánh pie"
+    ],
+    [
+      "chocolate",
+      "sô cô la"
+    ],
+    [
+      "candy",
+      "kẹo"
+    ],
+    [
+      "ice cream",
+      "kem"
+    ],
+    [
+      "pudding",
+      "bánh pudding"
+    ],
+    [
+      "jelly",
+      "thạch"
+    ],
+    [
+      "smoothie",
+      "sinh tố"
+    ],
+    [
+      "juice",
+      "nước ép"
+    ],
+    [
+      "tea",
+      "trà"
+    ],
+    [
+      "coffee",
+      "cà phê"
+    ],
+    [
+      "water",
+      "nước"
+    ],
+    [
+      "soda",
+      "nước ngọt"
+    ],
+    [
+      "milkshake",
+      "sữa lắc"
+    ],
+    [
+      "hot chocolate",
+      "sô cô la nóng"
+    ],
+    [
+      "lemonade",
+      "nước chanh"
+    ],
+    [
+      "coconut water",
+      "nước dừa"
+    ],
+    [
+      "soy milk",
+      "sữa đậu nành"
+    ],
+    [
+      "green tea",
+      "trà xanh"
+    ],
+    [
+      "black tea",
+      "trà đen"
+    ],
+    [
+      "herbal tea",
+      "trà thảo mộc"
+    ],
+    [
+      "bubble tea",
+      "trà sữa trân châu"
+    ],
+    [
+      "espresso",
+      "cà phê espresso"
+    ],
+    [
+      "latte",
+      "cà phê latte"
+    ],
+    [
+      "cappuccino",
+      "cà phê cappuccino"
+    ],
+    [
+      "basil",
+      "húng quế"
+    ],
+    [
+      "mint herb",
+      "bạc hà"
+    ],
+    [
+      "cilantro",
+      "ngò rí"
+    ],
+    [
+      "parsley",
+      "mùi tây"
+    ],
+    [
+      "dill",
+      "thì là"
+    ],
+    [
+      "rosemary",
+      "hương thảo"
+    ],
+    [
+      "thyme",
+      "cỏ xạ hương"
+    ],
+    [
+      "oregano",
+      "kinh giới cây"
+    ],
+    [
+      "bay leaf",
+      "lá nguyệt quế"
+    ],
+    [
+      "cinnamon",
+      "quế"
+    ],
+    [
+      "nutmeg",
+      "nhục đậu khấu"
+    ],
+    [
+      "clove",
+      "đinh hương"
+    ],
+    [
+      "cardamom",
+      "thảo quả"
+    ],
+    [
+      "cumin",
+      "thìa là Ấn"
+    ],
+    [
+      "turmeric",
+      "nghệ"
+    ],
+    [
+      "paprika",
+      "ớt bột"
+    ],
+    [
+      "saffron",
+      "nhụy hoa nghệ tây"
+    ],
+    [
+      "vanilla",
+      "vanilla"
+    ],
+    [
+      "basil leaf",
+      "lá húng quế"
+    ],
+    [
+      "lemongrass",
+      "sả"
+    ],
+    [
+      "galangal",
+      "riềng"
+    ],
+    [
+      "fish sauce",
+      "nước mắm"
+    ],
+    [
+      "soy sauce",
+      "xì dầu"
+    ]
+  ]
+}

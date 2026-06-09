@@ -11,4 +11,6 @@ import java.util.List;
 public interface VocabularyRepository extends JpaRepository<Vocabulary, Long>, JpaSpecificationExecutor<Vocabulary> {
 
     List<Vocabulary> findByTopicIdOrderByOrderIndexAsc(Long topicId);
+
+    long countByTopicId(Long topicId);
 }
